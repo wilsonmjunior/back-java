@@ -1375,3 +1375,1380 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
 	... 31 common frames omitted
 
+2026-03-17T21:58:45.036-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : Starting CustoFrenteMain using Java 17.0.18 with PID 70783 (/Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api/build/classes/java/main started by wilson in /Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api)
+2026-03-17T21:58:45.036-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : Starting CustoFrenteMain using Java 17.0.18 with PID 70783 (/Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api/build/classes/java/main started by wilson in /Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api)
+2026-03-17T21:58:45.037-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T21:58:45.037-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T21:58:45.260-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T21:58:45.261-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T21:58:45.278-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 10 JPA repository interfaces.
+2026-03-17T21:58:45.379-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T21:58:45.379-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-03-17T21:58:45.384-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2026-03-17T21:58:45.580-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-17T21:58:45.580-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-17T21:58:45.585-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T21:58:45.586-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-17T21:58:45.607-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 553 ms
+2026-03-17T21:58:45.607-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 553 ms
+2026-03-17T21:58:45.663-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.util.UtilityElf        : Class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42110406
+2026-03-17T21:58:45.704-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : tbc-agro-custo-frente-api - configuration:
+2026-03-17T21:58:45.705-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2026-03-17T21:58:45.705-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................false
+2026-03-17T21:58:45.705-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2026-03-17T21:58:45.705-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2026-03-17T21:58:45.705-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2026-03-17T21:58:45.705-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............5000
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@3355168
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProvider.............none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProviderClassName....none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................30
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................2
+2026-03-17T21:58:45.706-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"tbc-agro-custo-frente-api"
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : username........................"UNPTA"
+2026-03-17T21:58:45.707-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2026-03-17T21:58:45.707-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariDataSource       : tbc-agro-custo-frente-api - Starting...
+2026-03-17T21:58:45.710-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Attempting to create/setup new connection (b125266d-345f-4230-8d07-5de94e010e99)
+2026-03-17T21:58:45.748-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Failed to create/setup connection (b125266d-345f-4230-8d07-5de94e010e99): IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:58:45.748-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.HikariPool        : tbc-agro-custo-frente-api - Cannot acquire connection from data source
+
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:168)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateJpaConfiguration.lambda$getVendorProperties$0(HibernateJpaConfiguration.java:158)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateSettings.getDdlAuto(HibernateSettings.java:43)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.determineDdlAuto(HibernateProperties.java:122)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.getAdditionalProperties(HibernateProperties.java:91)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.determineHibernateProperties(HibernateProperties.java:84)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:159)
+	at org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration.buildJpaProperties(JpaBaseConfiguration.java:132)
+	at org.springframework.boot.jpa.EntityManagerFactoryBuilder$Builder.build(EntityManagerFactoryBuilder.java:268)
+	at org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 48 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 0 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 53 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 55 common frames omitted
+
+2026-03-17T21:58:46.760-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T21:58:46.786-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-03-17T21:58:46.954-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T21:58:46.968-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : tbc-agro-custo-frente-api - configuration:
+2026-03-17T21:58:46.968-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2026-03-17T21:58:46.968-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................false
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............5000
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@3355168
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProvider.............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProviderClassName....none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................30
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................2
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"tbc-agro-custo-frente-api"
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2026-03-17T21:58:46.969-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : username........................"UNPTA"
+2026-03-17T21:58:46.970-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2026-03-17T21:58:46.970-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariDataSource       : tbc-agro-custo-frente-api - Starting...
+2026-03-17T21:58:46.970-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Attempting to create/setup new connection (91839f94-3590-4a4b-981d-f606f057eddd)
+2026-03-17T21:58:46.971-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Failed to create/setup connection (91839f94-3590-4a4b-981d-f606f057eddd): IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:58:46.971-03:00 DEBUG 70783 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.HikariPool        : tbc-agro-custo-frente-api - Cannot acquire connection from data source
+
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 1 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 56 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 58 common frames omitted
+
+2026-03-17T21:58:47.977-03:00  WARN 70783 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 17002, SQLState: 08006
+2026-03-17T21:58:47.977-03:00  WARN 70783 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc.error             : IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:58:47.977-03:00  WARN 70783 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc                   : HHH100046: Could not obtain connection to query JDBC database metadata
+
+org.hibernate.exception.JDBCConnectionException: Unable to obtain isolated JDBC connection [IO Error: The Network Adapter could not establish the connection] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	... 37 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 1 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 56 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 58 common frames omitted
+
+2026-03-17T21:58:47.978-03:00 ERROR 70783 --- [tbc-agro-custo-frente-api] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:58:47.978-03:00  WARN 70783 --- [tbc-agro-custo-frente-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:58:47.978-03:00  WARN 70783 --- [tbc-agro-custo-frente-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:58:47.979-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-17T21:58:47.985-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T21:58:47.985-03:00  INFO 70783 --- [tbc-agro-custo-frente-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T21:58:47.991-03:00 ERROR 70783 --- [tbc-agro-custo-frente-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+
+2026-03-17T21:58:47.991-03:00 ERROR 70783 --- [tbc-agro-custo-frente-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+
+2026-03-17T21:58:55.235-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : Starting CustoFrenteMain using Java 17.0.18 with PID 71362 (/Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api/build/classes/java/main started by wilson in /Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api)
+2026-03-17T21:58:55.235-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : Starting CustoFrenteMain using Java 17.0.18 with PID 71362 (/Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api/build/classes/java/main started by wilson in /Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api)
+2026-03-17T21:58:55.236-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T21:58:55.236-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T21:58:55.461-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T21:58:55.462-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T21:58:55.480-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 10 JPA repository interfaces.
+2026-03-17T21:58:55.579-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T21:58:55.579-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-03-17T21:58:55.585-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2026-03-17T21:58:55.776-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-17T21:58:55.776-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-17T21:58:55.786-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T21:58:55.786-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-17T21:58:55.809-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 556 ms
+2026-03-17T21:58:55.809-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 556 ms
+2026-03-17T21:58:55.868-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.util.UtilityElf        : Class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42110406
+2026-03-17T21:58:55.909-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : tbc-agro-custo-frente-api - configuration:
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................false
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............5000
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@5ba184fc
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProvider.............none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProviderClassName....none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2026-03-17T21:58:55.910-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................30
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................2
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"tbc-agro-custo-frente-api"
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : username........................"UNPTA"
+2026-03-17T21:58:55.911-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2026-03-17T21:58:55.911-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariDataSource       : tbc-agro-custo-frente-api - Starting...
+2026-03-17T21:58:55.914-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Attempting to create/setup new connection (7c246a8c-9f84-4090-bf6d-bdac21585a15)
+2026-03-17T21:58:55.953-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Failed to create/setup connection (7c246a8c-9f84-4090-bf6d-bdac21585a15): IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:58:55.953-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.HikariPool        : tbc-agro-custo-frente-api - Cannot acquire connection from data source
+
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:168)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateJpaConfiguration.lambda$getVendorProperties$0(HibernateJpaConfiguration.java:158)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateSettings.getDdlAuto(HibernateSettings.java:43)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.determineDdlAuto(HibernateProperties.java:122)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.getAdditionalProperties(HibernateProperties.java:91)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.determineHibernateProperties(HibernateProperties.java:84)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:159)
+	at org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration.buildJpaProperties(JpaBaseConfiguration.java:132)
+	at org.springframework.boot.jpa.EntityManagerFactoryBuilder$Builder.build(EntityManagerFactoryBuilder.java:268)
+	at org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 48 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 0 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 53 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 55 common frames omitted
+
+2026-03-17T21:58:56.968-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T21:58:56.995-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-03-17T21:58:57.168-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : tbc-agro-custo-frente-api - configuration:
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................false
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............5000
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@5ba184fc
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProvider.............none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProviderClassName....none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2026-03-17T21:58:57.183-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................30
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................2
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"tbc-agro-custo-frente-api"
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : username........................"UNPTA"
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2026-03-17T21:58:57.184-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariDataSource       : tbc-agro-custo-frente-api - Starting...
+2026-03-17T21:58:57.184-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Attempting to create/setup new connection (e4d297e9-d4c6-49ea-801a-0436f2beb25b)
+2026-03-17T21:58:57.185-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Failed to create/setup connection (e4d297e9-d4c6-49ea-801a-0436f2beb25b): IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:58:57.185-03:00 DEBUG 71362 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.HikariPool        : tbc-agro-custo-frente-api - Cannot acquire connection from data source
+
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 0 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 56 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 58 common frames omitted
+
+2026-03-17T21:58:58.193-03:00  WARN 71362 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 17002, SQLState: 08006
+2026-03-17T21:58:58.193-03:00  WARN 71362 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc.error             : IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:58:58.193-03:00  WARN 71362 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc                   : HHH100046: Could not obtain connection to query JDBC database metadata
+
+org.hibernate.exception.JDBCConnectionException: Unable to obtain isolated JDBC connection [IO Error: The Network Adapter could not establish the connection] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	... 37 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 0 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 56 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 58 common frames omitted
+
+2026-03-17T21:58:58.194-03:00 ERROR 71362 --- [tbc-agro-custo-frente-api] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:58:58.194-03:00  WARN 71362 --- [tbc-agro-custo-frente-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:58:58.194-03:00  WARN 71362 --- [tbc-agro-custo-frente-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:58:58.195-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-17T21:58:58.200-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T21:58:58.200-03:00  INFO 71362 --- [tbc-agro-custo-frente-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T21:58:58.205-03:00 ERROR 71362 --- [tbc-agro-custo-frente-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+
+2026-03-17T21:58:58.205-03:00 ERROR 71362 --- [tbc-agro-custo-frente-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+
+2026-03-17T21:59:45.416-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : Starting CustoFrenteMain using Java 17.0.18 with PID 73380 (/Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api/build/classes/java/main started by wilson in /Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api)
+2026-03-17T21:59:45.416-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : Starting CustoFrenteMain using Java 17.0.18 with PID 73380 (/Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api/build/classes/java/main started by wilson in /Users/wilson/Documents/Apps/back/tbc-agro-business-release-03_processamentoCustoFrente/custo-frente-api)
+2026-03-17T21:59:45.417-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : The following 1 profile is active: "local"
+2026-03-17T21:59:45.417-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] br.com.tbc.agro.custo.CustoFrenteMain    : The following 1 profile is active: "local"
+2026-03-17T21:59:45.665-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T21:59:45.665-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T21:59:45.684-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 10 JPA repository interfaces.
+2026-03-17T21:59:45.795-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T21:59:45.795-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-03-17T21:59:45.801-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2026-03-17T21:59:46.006-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-17T21:59:46.006-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-17T21:59:46.011-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T21:59:46.011-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-17T21:59:46.035-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 599 ms
+2026-03-17T21:59:46.035-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 599 ms
+2026-03-17T21:59:46.097-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.util.UtilityElf        : Class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42110406
+2026-03-17T21:59:46.139-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : tbc-agro-custo-frente-api - configuration:
+2026-03-17T21:59:46.139-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................false
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............5000
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@3d798e76
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProvider.............none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProviderClassName....none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2026-03-17T21:59:46.140-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................30
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................2
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"tbc-agro-custo-frente-api"
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : username........................"UNPTA"
+2026-03-17T21:59:46.141-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2026-03-17T21:59:46.141-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariDataSource       : tbc-agro-custo-frente-api - Starting...
+2026-03-17T21:59:46.144-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Attempting to create/setup new connection (cb8ca20c-175d-4126-b049-a9e469b0a21a)
+2026-03-17T21:59:46.189-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Failed to create/setup connection (cb8ca20c-175d-4126-b049-a9e469b0a21a): IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:59:46.189-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.HikariPool        : tbc-agro-custo-frente-api - Cannot acquire connection from data source
+
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:168)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateJpaConfiguration.lambda$getVendorProperties$0(HibernateJpaConfiguration.java:158)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateSettings.getDdlAuto(HibernateSettings.java:43)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.determineDdlAuto(HibernateProperties.java:122)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.getAdditionalProperties(HibernateProperties.java:91)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateProperties.determineHibernateProperties(HibernateProperties.java:84)
+	at org.springframework.boot.hibernate.autoconfigure.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:159)
+	at org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration.buildJpaProperties(JpaBaseConfiguration.java:132)
+	at org.springframework.boot.jpa.EntityManagerFactoryBuilder$Builder.build(EntityManagerFactoryBuilder.java:268)
+	at org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 48 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 1 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 53 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 55 common frames omitted
+
+2026-03-17T21:59:47.206-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-17T21:59:47.241-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-03-17T21:59:47.431-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T21:59:47.447-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : tbc-agro-custo-frente-api - configuration:
+2026-03-17T21:59:47.447-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................false
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............5000
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@3d798e76
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProvider.............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : credentialsProviderClassName....none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................30
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................2
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"tbc-agro-custo-frente-api"
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : username........................"UNPTA"
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2026-03-17T21:59:47.448-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.HikariDataSource       : tbc-agro-custo-frente-api - Starting...
+2026-03-17T21:59:47.448-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Attempting to create/setup new connection (f63e9288-ef71-485f-80db-45b8b3bd19eb)
+2026-03-17T21:59:47.449-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.PoolBase          : tbc-agro-custo-frente-api - Failed to create/setup connection (f63e9288-ef71-485f-80db-45b8b3bd19eb): IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:59:47.449-03:00 DEBUG 73380 --- [tbc-agro-custo-frente-api] [main] com.zaxxer.hikari.pool.HikariPool        : tbc-agro-custo-frente-api - Cannot acquire connection from data source
+
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 0 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 56 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 58 common frames omitted
+
+2026-03-17T21:59:48.452-03:00  WARN 73380 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 17002, SQLState: 08006
+2026-03-17T21:59:48.452-03:00  WARN 73380 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc.error             : IO Error: The Network Adapter could not establish the connection
+2026-03-17T21:59:48.452-03:00  WARN 73380 --- [tbc-agro-custo-frente-api] [main] org.hibernate.orm.jdbc                   : HHH100046: Could not obtain connection to query JDBC database metadata
+
+org.hibernate.exception.JDBCConnectionException: Unable to obtain isolated JDBC connection [IO Error: The Network Adapter could not establish the connection] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	... 37 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:571)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:548)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:682)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:309)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Connection refused, socket connect lapse 0 ms. localhost/0:0:0:0:0:0:0:1 1521 5000 2 true
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:233)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:174)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:510)
+	... 56 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:99)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:77)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:192)
+	... 58 common frames omitted
+
+2026-03-17T21:59:48.452-03:00 ERROR 73380 --- [tbc-agro-custo-frente-api] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:59:48.453-03:00  WARN 73380 --- [tbc-agro-custo-frente-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:59:48.453-03:00  WARN 73380 --- [tbc-agro-custo-frente-api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-03-17T21:59:48.454-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-17T21:59:48.460-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T21:59:48.460-03:00  INFO 73380 --- [tbc-agro-custo-frente-api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T21:59:48.470-03:00 ERROR 73380 --- [tbc-agro-custo-frente-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+
+2026-03-17T21:59:48.470-03:00 ERROR 73380 --- [tbc-agro-custo-frente-api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at br.com.tbc.agro.custo.CustoFrenteMain.main(CustoFrenteMain.java:15)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+
