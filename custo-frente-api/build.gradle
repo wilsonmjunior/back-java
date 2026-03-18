@@ -1,0 +1,44 @@
+apply plugin: "application"
+apply plugin: "org.springframework.boot"
+
+jar {
+    enabled = true
+    archiveBaseName = "custo-frente-api"
+}
+
+springBoot {
+    buildInfo {
+        properties {
+            additional = [
+                    'title'      : 'custo-frente-api',
+                    'description': 'Projeto responsável pelo calculo de custo por Frente (TBC)'
+            ]
+        }
+    }
+}
+
+bootJar {
+    enabled = true
+    archiveFileName = "custo-frente-api.jar"
+    mainClass = "br.com.tbc.agro.custo.CustoFrenteMain"
+    manifest {
+        attributes('Implementation-Version': getArchiveVersion())
+        attributes('Responsible-Company': 'Manager-Solutions')
+        attributes('Responsible-Architect': 'Patrick Francis Gomes Rocha')
+        attributes('Responsible-Engineer': 'Gleison José Alves')
+        attributes('Responsible-Analyst': 'Fabrício')
+    }
+}
+
+dependencies {
+    implementation(project(":tbc-agro-core"))
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.openApiVersion}")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+    implementation("com.fasterxml.jackson.module:jackson-module-parameter-names")
+    implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
+    runtimeOnly ("com.oracle.database.jdbc:ojdbc11")
+
+    testImplementation ("org.springframework.boot:spring-boot-starter-test")
+}

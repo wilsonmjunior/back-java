@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+apply plugin: "org.springframework.boot"
+
+jar {
+    enabled = true
+    archiveBaseName = "tbc-agro-core"
+}
+
+bootJar {
+    enabled = false
+}
+
+dependencies {
+    
+}

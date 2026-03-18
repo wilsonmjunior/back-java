@@ -1,0 +1,56 @@
+server:
+  port: 8080
+  servlet:
+    application-display-name: tbc-agro-custo-frente-api
+spring:
+  application.name: 'tbc-agro-custo-frente-api'
+
+  datasource:
+    url: 'jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=localhost)(port=1521)))(connect_data=(service_name=DICIO)(failover_mode=(type=session)(method=basic)(retries=10)(delay=1))))'
+    username: 'UNPTA'
+    password: 'UNPTA'
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      pool-name: "${spring.application.name}"
+      maximum-pool-size: 30
+      minimum-idle: 2
+      auto-commit: false
+      connection-timeout: 5000
+      validation-timeout: 5000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+  jpa:
+    open-in-view: false
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  threads:
+    virtual:
+      enabled: true
+
+
+logging:
+  file:
+    name: .\temp\tbc-agro-custo-frente.log
+  config: classpath:logback-spring.xml
+
+  level:
+    com.zaxxer.hikari: DEBUG
+    org.hibernate.engine.jdbc.connections.internal: INFO
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    logfile:
+      enabled: true
+      cache:
+        time-to-live: 10s
+  endpoints:
+    web:
+      exposure:
+        include: 'health,info,mappings,metrics,httptrace,refresh,loggers,logfile'

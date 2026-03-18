@@ -1,0 +1,4 @@
+rootProject.name = 'tbc-agro-business'
+
+include 'tbc-agro-core'
+include 'custo-frente-api'

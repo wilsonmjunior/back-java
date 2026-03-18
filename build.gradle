@@ -1,0 +1,124 @@
+plugins {
+	id 'java'
+	id 'jacoco'
+	id 'checkstyle'
+	id 'java-library'
+	id 'org.springframework.boot' version '4.0.1' apply false
+	id 'io.spring.dependency-management' version '1.1.7'
+	id 'eu.rehost.jasperreports' version '6.21.5'
+}
+
+ext {
+	versions = [
+			springBootVersion : '4.0.1',
+			commonsLangVersion: '3.20.0',
+			springCloudVersion: '2025.1.0',
+			openApiVersion    : '3.0.1',
+			mokitoVersion     : '5.2.0',
+			oracleJdbcVersion : '19.3.0.0',
+			jasperReportVersion: '6.21.5'
+	]
+	exclusions = []
+}
+
+allprojects {
+	repositories {
+		mavenLocal()
+		mavenCentral()
+	}
+
+	java {
+		toolchain {
+			languageVersion = JavaLanguageVersion.of(25)
+		}
+	}
+
+	/***************************
+	 * JaCoCo Configuration
+	 ***************************/
+	jacoco {
+		toolVersion = "0.8.9"
+		reportsDirectory = layout.buildDirectory.dir('customJacocoReportDir')
+	}
+
+	jacocoTestCoverageVerification {
+		violationRules {
+			rule {
+				element = 'BUNDLE'
+				limit {
+					minimum = 0.00
+					value = 'COVEREDRATIO'
+					counter = 'INSTRUCTION'
+				}
+			}
+		}
+		afterEvaluate {
+			classDirectories.setFrom(files(classDirectories.files.collect {
+				fileTree(dir: it, exclude: project.exclusions)
+			}))
+		}
+		dependsOn jacocoTestReport
+	}
+
+
+/***************************
+ * Test Configuration
+ ***************************/
+	test {
+		useJUnitPlatform()
+		afterTest { descriptor, result ->
+			id 'org.springframework.boot' version '3.3.0' exdfsdfs
+			logger.lifecycle("$descriptor")
+			logger.lifecycle("Result: $result \n")
+		}
+		finalizedBy jacocoTestCoverageVerification
+	}
+
+	/***************************
+	 * Checkstyle Configuration
+	 ***************************/
+	checkstyle {
+		configFile = file("$rootDir/config/checkstyle/checkstyle.xml")
+		maxErrors = 0
+		maxWarnings = 0
+		ignoreFailures = false
+		toolVersion("10.3.3")
+	}
+}
+
+subprojects {
+	apply plugin: "java"
+	apply plugin: "jacoco"
+	apply plugin: 'groovy'
+	apply plugin: "checkstyle"
+	apply plugin: "io.spring.dependency-management"
+
+
+	dependencies {
+		implementation("org.apache.commons:commons-lang3:${versions.commonsLangVersion}")
+		implementation("org.springframework.boot:spring-boot-starter-validation")
+
+		implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+		implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
+		implementation("com.oracle.ojdbc:ojdbc8:${versions.oracleJdbcVersion}")
+		implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+		implementation("net.sf.jasperreports:jasperreports:${versions.jasperReportVersion}")
+		implementation("net.sf.jasperreports:jasperreports-functions:${versions.jasperReportVersion}")
+
+		compileOnly("org.projectlombok:lombok")
+
+		annotationProcessor("org.projectlombok:lombok")
+		annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+
+		testImplementation("org.springframework.boot:spring-boot-starter-test")
+		testImplementation("org.mockito:mockito-inline:${versions.mokitoVersion}")
+
+		testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	}
+
+	dependencyManagement {
+		imports {
+			mavenBom("org.springframework.cloud:spring-cloud-dependencies:${versions.springCloudVersion}")
+		}
+	}
+}
