@@ -67,7 +67,7 @@ allprojects {
 	test {
 		useJUnitPlatform()
 		afterTest { descriptor, result ->
-			id 'org.springframework.boot' version '3.3.0' exdfsdfs
+			id 'org.springframework.boot' version '3.3.0' 
 			logger.lifecycle("$descriptor")
 			logger.lifecycle("Result: $result \n")
 		}
